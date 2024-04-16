@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 
 const InitUser = () => {
   const { isLoggedIn, setIsLoggedIn, setUser } = userStore((state) => state);
-
+  // test
   useEffect(() => {
     // isLoggedIn 상태가 변경되거나, 새로고침 했을때 쎄션 유지 중인지 여부에 따라 실행되는 함수
     // (참고: isLoggedIn 상태는 로그인/로그아웃 시에만 변경됨 = 로그인/로그아웃에 모든 호출이 종속되도록)
